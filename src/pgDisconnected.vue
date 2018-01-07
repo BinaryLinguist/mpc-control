@@ -29,7 +29,7 @@
 		<p class="text-center" style="font-size: 36px; margin-bottom: 24px;">
 			<i class="fa fa-refresh fa-spin"></i>
 		</p>
-		<p class="text-center"><a data-toggle="modal" data-target="#manualLights">Need to manually activate the lights?</a></p>
+		<!-- <p class="text-center"><a data-toggle="modal" data-target="#manualLights">Need to manually activate the lights?</a></p> -->
 	</div>
 	
 	
