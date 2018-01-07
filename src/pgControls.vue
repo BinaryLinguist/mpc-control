@@ -1,10 +1,12 @@
 <template>
 <div v-if="(!lockedOut || manuallyUnlocked)">
 	<div class="row">
+		<div class="col-md-4"></div>
 		<div class="col-md-4">
-			<cue-button :cue="1" name="House Full" type="House Lights" color="bg-yellow"></cue-button>
-			<cue-button :cue="2" name="House Off" type="House Lights" color="bg-red" icon="fa-power-off"></cue-button>
+			<cue-button :cue="1" name="Auditorium On" type="Auditorium" color="bg-yellow"></cue-button>
+			<cue-button :cue="2" name="Auditorium Off" type="Auditorium" color="bg-red" icon="fa-power-off"></cue-button>
 		</div>
+		<div class="col-md-4"></div>
 	</div>
 </div>
 <div v-else>

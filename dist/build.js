@@ -14759,10 +14759,12 @@
 	// <template>
 	// <div v-if="(!lockedOut || manuallyUnlocked)">
 	// 	<div class="row">
+	// 		<div class="col-md-4"></div>
 	// 		<div class="col-md-4">
-	// 			<cue-button :cue="1" name="House Full" type="House Lights" color="bg-yellow"></cue-button>
-	// 			<cue-button :cue="2" name="House Off" type="House Lights" color="bg-red" icon="fa-power-off"></cue-button>
+	// 			<cue-button :cue="1" name="Auditorium On" type="Auditorium" color="bg-yellow"></cue-button>
+	// 			<cue-button :cue="2" name="Auditorium Off" type="Auditorium" color="bg-red" icon="fa-power-off"></cue-button>
 	// 		</div>
+	// 		<div class="col-md-4"></div>
 	// 	</div>
 	// </div>
 	// <div v-else>
@@ -14802,7 +14804,7 @@
 /* 20 */
 /***/ (function(module, exports) {
 
-	module.exports = "\r\n<div v-if=\"(!lockedOut || manuallyUnlocked)\">\r\n\t<div class=\"row\">\r\n\t\t<div class=\"col-md-4\">\r\n\t\t\t<cue-button :cue=\"1\" name=\"House Full\" type=\"House Lights\" color=\"bg-yellow\"></cue-button>\r\n\t\t\t<cue-button :cue=\"2\" name=\"House Off\" type=\"House Lights\" color=\"bg-red\" icon=\"fa-power-off\"></cue-button>\r\n\t\t</div>\r\n\t</div>\r\n</div>\r\n<div v-else>\r\n\t<div class=\"lockscreen-wrapper\">\r\n\t\t<div class=\"lockscreen-logo\">Auditorium Lighting</div>\r\n\r\n\t\t<div class=\"text-center\" style=\"margin-bottom: 24px;\">\r\n\t\t\tLoading scenes...\r\n\t\t</div>\r\n\t\t<p class=\"text-center\" style=\"font-size: 36px; margin-bottom: 24px;\">\r\n\t\t\t<i class=\"fa fa-refresh fa-spin\"></i>\r\n\t\t</p>\r\n\t</div>\r\n\r\n</div>\r\n</div>\r\n";
+	module.exports = "\r\n<div v-if=\"(!lockedOut || manuallyUnlocked)\">\r\n\t<div class=\"row\">\r\n\t\t<div class=\"col-md-4\"></div>\r\n\t\t<div class=\"col-md-4\">\r\n\t\t\t<cue-button :cue=\"1\" name=\"Auditorium On\" type=\"Auditorium\" color=\"bg-yellow\"></cue-button>\r\n\t\t\t<cue-button :cue=\"2\" name=\"Auditorium Off\" type=\"Auditorium\" color=\"bg-red\" icon=\"fa-power-off\"></cue-button>\r\n\t\t</div>\r\n\t\t<div class=\"col-md-4\"></div>\r\n\t</div>\r\n</div>\r\n<div v-else>\r\n\t<div class=\"lockscreen-wrapper\">\r\n\t\t<div class=\"lockscreen-logo\">Auditorium Lighting</div>\r\n\r\n\t\t<div class=\"text-center\" style=\"margin-bottom: 24px;\">\r\n\t\t\tLoading scenes...\r\n\t\t</div>\r\n\t\t<p class=\"text-center\" style=\"font-size: 36px; margin-bottom: 24px;\">\r\n\t\t\t<i class=\"fa fa-refresh fa-spin\"></i>\r\n\t\t</p>\r\n\t</div>\r\n\r\n</div>\r\n</div>\r\n";
 
 /***/ }),
 /* 21 */
